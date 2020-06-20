@@ -1,4 +1,4 @@
-package com.github.odaridavid.materialize
+package com.github.odaridavid.materialx
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
