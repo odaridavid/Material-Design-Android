@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <!-- Theme color attributes-->
+    <color name="color_primary">#6200EE</color>
+    <color name="color_primary_dark">#3700B3</color>
+    <color name="color_primary_variant">#3700B3</color>
+    <color name="color_on_primary">#3700B3</color>
+
+    <color name="color_secondary">#03DAC5</color>
+    <color name="color_secondary_variant">#03DAC5</color>
+    <color name="color_on_secondary">#03DAC5</color>
+
+    <color name="color_surface">#03DAC5</color>
+    <color name="color_on_surface">#03DAC5</color>
+
+    <color name="color_background">#03DAC5</color>
+    <color name="color_on_background">#03DAC5</color>
+
+    <color name="color_error">#03DAC5</color>
+    <color name="color_on_error">#03DAC5</color>
+
+    <!--Reference for colors used across the app-->
+
 </resources>
