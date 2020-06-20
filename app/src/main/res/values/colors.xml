@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Theme color attributes-->
-    <color name="color_primary">@color/color_grey_50</color>
-    <color name="color_primary_dark">@color/color_grey_50_dark</color>
-    <color name="color_primary_variant">@color/color_grey_50_light</color>
-    <color name="color_on_primary">@color/color_black</color>
-
-    <color name="color_secondary">@color/color_grey_800</color>
-    <color name="color_secondary_dark">@color/color_grey_800_dark</color>
-    <color name="color_secondary_variant">@color/color_grey_800_light</color>
-    <color name="color_on_secondary">@color/color_white</color>
-
-    <color name="color_surface">@color/color_white</color>
-    <color name="color_on_surface">@color/color_black</color>
-
-    <color name="color_background">@color/color_white</color>
-    <color name="color_on_background">@color/color_black</color>
-
-    <color name="color_error">@color/color_orange_300</color>
-    <color name="color_on_error">@color/color_black</color>
-
     <!--Reference from material color palette for colors used across the app-->
     <color name="color_grey_50">#fafafa</color>
     <color name="color_grey_50_light">#ffffff</color>
