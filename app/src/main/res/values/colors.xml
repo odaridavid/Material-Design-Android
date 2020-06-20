@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Theme color attributes-->
-    <color name="color_primary">#6200EE</color>
-    <color name="color_primary_dark">#3700B3</color>
-    <color name="color_primary_variant">#3700B3</color>
-    <color name="color_on_primary">#3700B3</color>
+    <color name="color_primary">@color/color_grey_50</color>
+    <color name="color_primary_dark">@color/color_grey_50_dark</color>
+    <color name="color_primary_variant">@color/color_grey_50_light</color>
+    <color name="color_on_primary">@color/color_black</color>
 
-    <color name="color_secondary">#03DAC5</color>
-    <color name="color_secondary_variant">#03DAC5</color>
-    <color name="color_on_secondary">#03DAC5</color>
+    <color name="color_secondary">@color/color_grey_800</color>
+    <color name="color_secondary_dark">@color/color_grey_800_dark</color>
+    <color name="color_secondary_variant">@color/color_grey_800_light</color>
+    <color name="color_on_secondary">@color/color_white</color>
 
-    <color name="color_surface">#03DAC5</color>
-    <color name="color_on_surface">#03DAC5</color>
+    <color name="color_surface">@color/color_white</color>
+    <color name="color_on_surface">@color/color_black</color>
 
-    <color name="color_background">#03DAC5</color>
-    <color name="color_on_background">#03DAC5</color>
+    <color name="color_background">@color/color_white</color>
+    <color name="color_on_background">@color/color_black</color>
 
-    <color name="color_error">#03DAC5</color>
-    <color name="color_on_error">#03DAC5</color>
+    <color name="color_error">@color/color_orange_300</color>
+    <color name="color_on_error">@color/color_black</color>
 
-    <!--Reference for colors used across the app-->
+    <!--Reference from material color palette for colors used across the app-->
+    <color name="color_grey_50">#fafafa</color>
+    <color name="color_grey_50_light">#ffffff</color>
+    <color name="color_grey_50_dark">#c7c7c7</color>
+    <color name="color_black">#000000</color>
+
+    <color name="color_grey_800">#424242</color>
+    <color name="color_grey_800_light">#6d6d6d</color>
+    <color name="color_grey_800_dark">#1b1b1b</color>
+    <color name="color_white">#ffffff</color>
+
+    <color name="color_orange_300">#ffb74d</color>
 
 </resources>
