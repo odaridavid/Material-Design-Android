@@ -42,4 +42,29 @@
     <style name="TextAppearance.MaterialX.Overline" parent="Base.TextAppearance.MaterialX.Overline">
         <item name="android:textColor">@color/color_purple_500</item>
     </style>
+
+    <!-- Material Buttons-->
+    <style name="Widget.MaterialX.Button.TextButton.Icon" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="iconTint">@color/color_pink_900_light</item>
+        <item name="rippleColor">@color/color_pink_900_light</item>
+        <item name="android:textColor">@color/color_pink_900</item>
+    </style>
+
+    <style name="Widget.MaterialX.Button" parent="Widget.MaterialComponents.Button">
+        <item name="rippleColor">@color/color_white</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="backgroundTint">@color/color_pink_900_light</item>
+    </style>
+
+    <style name="Widget.MaterialX.Button.OutlinedButton.Icon" parent="Widget.MaterialComponents.Button.OutlinedButton.Icon">
+        <item name="iconTint">@color/color_grey_800</item>
+        <item name="rippleColor">@color/color_yellow_A700</item>
+        <item name="android:textColor">@color/color_grey_800</item>
+    </style>
+
+    <style name="Widget.MaterialX.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/color_pink_900_light</item>
+        <item name="rippleColor">@color/color_yellow_A700</item>
+        <item name="android:textColor">@color/color_grey_800</item>
+    </style>
 </resources>

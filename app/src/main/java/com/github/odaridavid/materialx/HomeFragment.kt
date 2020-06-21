@@ -27,10 +27,17 @@ internal class HomeFragment : Fragment(R.layout.fragment_home) {
         view.findViewById<MaterialCardView>(R.id.typography_material_card).setOnClickListener {
             navigateToTypography()
         }
+        view.findViewById<MaterialCardView>(R.id.buttons_material_card).setOnClickListener {
+            navigateToMaterialButtons()
+        }
     }
 
     private fun navigateToTypography() {
         findNavController().navigate(R.id.action_homeFragment_to_typographyFragment)
+    }
+
+    private fun navigateToMaterialButtons(){
+        findNavController().navigate(R.id.action_homeFragment_to_materialButtonsFragment)
     }
 
 }

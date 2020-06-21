@@ -20,4 +20,18 @@
     <string name="fun_with_font_attributes_text">Fun with font attributes</string>
     <string name="demo_label">Demo</string>
     <string name="reference_label">Reference</string>
+
+    <!--Material Buttons-->
+    <string name="dummy_text_1">A new dawn</string>
+    <string name="dummy_text_2">Random text about xyz doing xyz.Check out more details as xy dives deeper.</string>
+    <string name="bookmark_label">Bookmark</string>
+    <string name="explore_label">Explore</string>
+    <string name="explore_articles_label">Explore Articles</string>
+    <string name="read_more_label">Read More</string>
+    <string name="category_label">Category</string>
+    <string name="select_preferred_mode_text">Select Preferred Mode</string>
+    <string name="audio_label">Audio</string>
+    <string name="video_label">Video</string>
+    <string name="text_label">Text</string>
+    <string name="material_buttons_label">Material Buttons</string>
 </resources>

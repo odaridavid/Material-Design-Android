@@ -14,4 +14,11 @@
     <color name="color_orange_300">#ffb74d</color>
     <color name="color_purple_500">#9c27b0</color>
 
+    <color name="color_pink_900">#880e4f</color>
+    <color name="color_pink_900_dark">#560027</color>
+    <color name="color_pink_900_light">#bc477b</color>
+
+    <color name="color_yellow_A700">#ffd600</color>
+    <color name="color_yellow_A700_dark">#c7a500</color>
+    <color name="color_yellow_A700_light">#ffff52</color>
 </resources>

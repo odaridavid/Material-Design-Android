@@ -15,7 +15,7 @@ package com.github.odaridavid.materialx.typography
 
 import android.content.Context
 import com.github.odaridavid.materialx.R
-import com.github.odaridavid.materialx.getImageDrawable
+import com.github.odaridavid.materialx.commons.getImageDrawable
 
 
 internal object TypographyDataGenerator {

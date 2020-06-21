@@ -11,14 +11,16 @@
  * the License.
  *
  **/
-package com.github.odaridavid.materialx
+package com.github.odaridavid.materialx.commons
 
-import android.content.Context
-import android.graphics.drawable.Drawable
-import androidx.annotation.DrawableRes
-import androidx.core.content.res.ResourcesCompat
+import android.os.Build
+import android.os.Build.VERSION.SDK_INT
+import androidx.annotation.IntRange
 
 
-internal fun Context.getImageDrawable(@DrawableRes id: Int): Drawable {
-    return ResourcesCompat.getDrawable(resources, id, null)!!
-}
+internal fun versionFrom(
+    @IntRange(
+        from = Build.VERSION_CODES.BASE_1_1.toLong(),
+        to = Build.VERSION_CODES.Q.toLong()
+    ) version: Int
+): Boolean = SDK_INT >= version

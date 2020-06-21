@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -15,7 +15,10 @@
         android:clickable="true"
         android:focusable="true"
         app:cardCornerRadius="@dimen/typography_card_corner_radius"
-        app:cardElevation="@dimen/typography_card_elevation">
+        app:cardElevation="@dimen/typography_card_elevation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,7 +32,7 @@
                 android:layout_gravity="start"
                 android:layout_margin="@dimen/margin_standard"
                 android:contentDescription="@string/typography_icon_content_description"
-                android:src="@drawable/ic_typography" />
+                android:src="@drawable/ic_typography_24" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -41,4 +44,43 @@
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
-</FrameLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/buttons_material_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_standard"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="@dimen/typography_card_corner_radius"
+        app:cardElevation="@dimen/typography_card_elevation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/typography_material_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="@dimen/typography_icon_width"
+                android:layout_height="@dimen/typography_icon_height"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/margin_standard"
+                android:contentDescription="@string/typography_icon_content_description"
+                android:src="@drawable/ic_view_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/margin_standard"
+                android:text="@string/material_buttons_label"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

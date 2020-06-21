@@ -14,6 +14,9 @@
         <action
             android:id="@+id/action_homeFragment_to_typographyFragment"
             app:destination="@id/typographyFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_materialButtonsFragment"
+            app:destination="@id/materialButtonsFragment" />
     </fragment>
     <fragment
         android:id="@+id/typographyFragment"
@@ -37,4 +40,9 @@
         android:name="com.github.odaridavid.materialx.typography.TypographyReferenceFragment"
         android:label="@string/reference_label"
         tools:layout="@layout/fragment_typography_reference" />
+    <fragment
+        android:id="@+id/materialButtonsFragment"
+        android:name="com.github.odaridavid.materialx.buttons.MaterialButtonsFragment"
+        android:label="Material Buttons"
+        tools:layout="@layout/fragment_material_buttons" />
 </navigation>
