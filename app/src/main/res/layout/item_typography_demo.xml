@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/margin_standard"
+    android:layout_marginVertical="@dimen/margin_small"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="@dimen/typography_demo_card_padding"
+    app:cardCornerRadius="@dimen/typography_demo_card_radius"
+    app:cardElevation="@dimen/typography_demo_card_elevation">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/typograpy_demo_image_view"
+            android:layout_width="@dimen/typography_demo_image_view_with"
+            android:layout_height="@dimen/typography_demo_image_view_height"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/typography_demo_headline_text_view"
+            style="@style/Base.TextAppearance.MaterialX.Headline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_small"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/typograpy_demo_image_view"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Testing the telescope" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/typography_demo_overline_text_view"
+            style="@style/TextAppearance.MaterialX.Overline"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_small"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/typograpy_demo_image_view"
+            app:layout_constraintTop_toBottomOf="@+id/typography_demo_headline_text_view"
+            tools:text="David Odari" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/typography_demo_body_text_view"
+            style="@style/TextAppearance.MaterialX.Body"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_small"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintBottom_toTopOf="@+id/typography_demo_caption_text_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/typograpy_demo_image_view"
+            app:layout_constraintTop_toBottomOf="@+id/typography_demo_overline_text_view"
+            tools:text="Testing the telescope seems to be the key reseachers say as " />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/typography_demo_caption_text_view"
+            style="@style/TextAppearance.MaterialX.Caption"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_small"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/typograpy_demo_image_view"
+            app:layout_constraintTop_toBottomOf="@+id/typography_demo_body_text_view"
+            tools:text="27th March 2020 " />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

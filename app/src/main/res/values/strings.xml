@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">Materialize</string>
+    <string name="app_name">Material-X</string>
+    <!--Typography-->
+    <string name="label_typography">Typography</string>
+    <string name="typography_icon_content_description">Typography Icon</string>
+    <string name="headline_1_label">Headline 1</string>
+    <string name="headline_2_label">Headline 2</string>
+    <string name="headline_3_label">Headline 3</string>
+    <string name="headline_4_label">Headline 4</string>
+    <string name="headline_5_label">Headline 5</string>
+    <string name="headline_6_label">Headline 6</string>
+    <string name="subtitle_1_label">Subtitle 1</string>
+    <string name="subtitle_2_label">Subtitle 2</string>
+    <string name="body_1_label">Body 1</string>
+    <string name="body_2_label">Body 2</string>
+    <string name="caption_label">Caption</string>
+    <string name="overline_label">Overline</string>
+    <string name="button_label">Button</string>
+    <string name="letter_spacing_example_text">Letter Spacing Example</string>
+    <string name="fun_with_font_attributes_text">Fun with font attributes</string>
+    <string name="demo_label">Demo</string>
+    <string name="reference_label">Reference</string>
 </resources>

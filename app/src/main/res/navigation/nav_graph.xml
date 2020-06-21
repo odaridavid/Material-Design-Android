@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.github.odaridavid.materialx.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_typographyFragment"
+            app:destination="@id/typographyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/typographyFragment"
+        android:name="com.github.odaridavid.materialx.typography.TypographyFragment"
+        android:label="@string/label_typography"
+        tools:layout="@layout/fragment_typography">
+        <action
+            android:id="@+id/action_typographyFragment_to_typographyDemoFragment"
+            app:destination="@id/typographyDemoFragment" />
+        <action
+            android:id="@+id/action_typographyFragment_to_typographyReferenceFragment"
+            app:destination="@id/typographyReferenceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/typographyDemoFragment"
+        android:name="com.github.odaridavid.materialx.typography.TypographyDemoFragment"
+        android:label="@string/demo_label"
+        tools:layout="@layout/fragment_typography_demo" />
+    <fragment
+        android:id="@+id/typographyReferenceFragment"
+        android:name="com.github.odaridavid.materialx.typography.TypographyReferenceFragment"
+        android:label="@string/reference_label"
+        tools:layout="@layout/fragment_typography_reference" />
+</navigation>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Typography Reference-->
+    <style name="TextAppearance.MaterialX.Body1.Spaced" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:letterSpacing">0.5</item>
+    </style>
+
+    <style name="TextAppearance.MaterialX.Body1.Styled" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:fontFamily">@font/dancing_script</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Typography Demo-->
+    <style name="Base.TextAppearance.MaterialX.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Base.TextAppearance.MaterialX.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Base.TextAppearance.MaterialX.Body" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="Base.TextAppearance.MaterialX.Headline" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="TextAppearance.MaterialX.Caption" parent="Base.TextAppearance.MaterialX.Caption">
+        <item name="android:textColor">@color/color_grey_50_dark</item>
+    </style>
+
+    <style name="TextAppearance.MaterialX.Body" parent="Base.TextAppearance.MaterialX.Body">
+        <item name="android:textColor">@color/color_grey_800_light</item>
+    </style>
+
+    <style name="TextAppearance.MaterialX.Overline" parent="Base.TextAppearance.MaterialX.Overline">
+        <item name="android:textColor">@color/color_purple_500</item>
+    </style>
+</resources>

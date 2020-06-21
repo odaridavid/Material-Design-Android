@@ -1,24 +1,25 @@
 <resources>
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
-
+    <!-- Base application theme that can be inherited and other configuration added onto it -->
+    <style name="BaseTheme" parent="Theme.MaterialComponents.DayNight">
         <item name="colorPrimary">@color/color_grey_50</item>
-        <item name="colorPrimaryDark">@color/color_grey_50_dark</item>
-        <item name="colorPrimaryVariant">@color/color_grey_50_light</item>
+        <item name="colorPrimaryDark">@color/color_grey_50</item>
+        <item name="colorPrimaryVariant">@color/color_grey_50_dark</item>
         <item name="colorOnPrimary">@color/color_black</item>
 
         <item name="colorSecondary">@color/color_grey_800</item>
         <item name="colorSecondaryVariant">@color/color_grey_800_light</item>
         <item name="colorOnSecondary">@color/color_white</item>
 
-        <color name="colorSurface">@color/color_white</color>
-        <color name="colorOnSurface">@color/color_black</color>
+        <item name="colorSurface">@color/color_white</item>
+        <item name="colorOnSurface">@color/color_black</item>
 
-        <color name="android:colorBackground">@color/color_white</color>
-        <color name="colorOnBackground">@color/color_black</color>
+        <item name="android:colorBackground">@color/color_white</item>
+        <item name="colorOnBackground">@color/color_black</item>
 
-        <color name="colorError">@color/color_orange_300</color>
-        <color name="colorOnError">@color/color_black</color>
+        <item name="colorError">@color/color_orange_300</item>
+        <item name="colorOnError">@color/color_black</item>
     </style>
+
+    <style name="AppTheme" parent="BaseTheme" />
 
 </resources>
