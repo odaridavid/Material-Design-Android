@@ -4,7 +4,7 @@ My stash for all things material, animations, transitions, Animated VD, Color Pa
 
 ### Typography
 
-<img src="art/typography.png" width="200"> <img src="art/typography2.png" width="200">
+<img src="art/typography.png" width="200"> <img src="art/typography3.png" width="200">
 
 ### Attributions
 
