@@ -60,16 +60,12 @@ internal class TypographyDemoAdapter :
             override fun areItemsTheSame(
                 oldItem: TypographyDemo,
                 newItem: TypographyDemo
-            ): Boolean {
-                TODO("Implementation")
-            }
+            ): Boolean = true
 
             override fun areContentsTheSame(
                 oldItem: TypographyDemo,
                 newItem: TypographyDemo
-            ): Boolean {
-                TODO("Implementation")
-            }
+            ): Boolean = true
         }
     }
 }
