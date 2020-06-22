@@ -11,7 +11,7 @@
  * the License.
  *
  **/
-plugins{
+plugins {
     id("com.android.application")
     id("kotlin-android")
     id("kotlin-android-extensions")
@@ -46,13 +46,21 @@ android {
 }
 
 dependencies {
-    def nav_version = "2.3.0-rc01"
+    def materialVersion = "1.1.0"
+    def navVersion = "2.3.0-rc01"
+    def paletteVersion = "1.0.0"
+    def coreKtxVersion = "1.3.0"
+    def appCompatVersion = "1.1.0"
+    def constraintLayoutVersion = "1.1.3"
+    def legacySupportVersion = "1.0.0"
+
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.3.0'
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'com.google.android.material:material:1.1.0'
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
-    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    implementation "androidx.core:core-ktx:$coreKtxVersion"
+    implementation "androidx.appcompat:appcompat:$appCompatVersion"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+    implementation "com.google.android.material:material:$materialVersion"
+    implementation "androidx.legacy:legacy-support-v4:$legacySupportVersion"
+    implementation "androidx.navigation:navigation-fragment-ktx:$navVersion"
+    implementation "androidx.navigation:navigation-ui-ktx:$navVersion"
+    implementation "androidx.palette:palette:$paletteVersion"
 }

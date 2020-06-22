@@ -10,6 +10,10 @@ My stash for all things material, animations, transitions, Animated VD, Color Pa
 
 <img src="art/mb.png" width="200">
 
+## Color Palette
+
+<img src="art/cp1.png" width="200"> <img src="art/cp2.png" width="200">
+
 ### Attributions
 
 Images by :

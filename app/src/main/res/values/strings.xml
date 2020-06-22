@@ -34,4 +34,12 @@
     <string name="video_label">Video</string>
     <string name="text_label">Text</string>
     <string name="material_buttons_label">Material Buttons</string>
+    <string name="vibrant_color_label">Vibrant Color</string>
+    <string name="light_vibrant_color_label">Light Vibrant Color</string>
+    <string name="dark_vibrant_color_label">Dark Vibrant Color</string>
+    <string name="dark_muted_color_label">Dark Muted Color</string>
+    <string name="light_muted_color_label">Light Muted Color</string>
+    <string name="muted_color_label">Muted Color</string>
+    <string name="color_palette_label">Color Palette</string>
+
 </resources>

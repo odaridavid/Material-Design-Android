@@ -17,6 +17,9 @@
         <action
             android:id="@+id/action_homeFragment_to_materialButtonsFragment"
             app:destination="@id/materialButtonsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_colorPaletteFragment"
+            app:destination="@id/colorPaletteFragment" />
     </fragment>
     <fragment
         android:id="@+id/typographyFragment"
@@ -35,14 +38,22 @@
         android:name="com.github.odaridavid.materialx.typography.TypographyDemoFragment"
         android:label="@string/demo_label"
         tools:layout="@layout/fragment_typography_demo" />
+
     <fragment
         android:id="@+id/typographyReferenceFragment"
         android:name="com.github.odaridavid.materialx.typography.TypographyReferenceFragment"
         android:label="@string/reference_label"
         tools:layout="@layout/fragment_typography_reference" />
+
     <fragment
         android:id="@+id/materialButtonsFragment"
         android:name="com.github.odaridavid.materialx.buttons.MaterialButtonsFragment"
-        android:label="Material Buttons"
+        android:label="@string/material_buttons_label"
         tools:layout="@layout/fragment_material_buttons" />
+
+    <fragment
+        android:id="@+id/colorPaletteFragment"
+        android:name="com.github.odaridavid.materialx.colorpalette.ColorPaletteFragment"
+        android:label="@string/color_palette_label"
+        tools:layout="@layout/fragment_color_palette" />
 </navigation>

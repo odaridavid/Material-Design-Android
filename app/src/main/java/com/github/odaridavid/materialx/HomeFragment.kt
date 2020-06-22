@@ -19,16 +19,18 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.card.MaterialCardView
 
-//TODO Migrate to view binding
 internal class HomeFragment : Fragment(R.layout.fragment_home) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        view.findViewById<MaterialCardView>(R.id.typography_material_card).setOnClickListener {
+        view.findViewById<MaterialCardView>(R.id.typography_card).setOnClickListener {
             navigateToTypography()
         }
-        view.findViewById<MaterialCardView>(R.id.buttons_material_card).setOnClickListener {
+        view.findViewById<MaterialCardView>(R.id.material_buttons_card).setOnClickListener {
             navigateToMaterialButtons()
+        }
+        view.findViewById<MaterialCardView>(R.id.color_palette_card).setOnClickListener {
+            navigateToColorPalette()
         }
     }
 
@@ -36,8 +38,12 @@ internal class HomeFragment : Fragment(R.layout.fragment_home) {
         findNavController().navigate(R.id.action_homeFragment_to_typographyFragment)
     }
 
-    private fun navigateToMaterialButtons(){
+    private fun navigateToMaterialButtons() {
         findNavController().navigate(R.id.action_homeFragment_to_materialButtonsFragment)
+    }
+
+    private fun navigateToColorPalette() {
+        findNavController().navigate(R.id.action_homeFragment_to_colorPaletteFragment)
     }
 
 }
