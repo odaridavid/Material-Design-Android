@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".animations.AnimationsFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/value_animator_button"
+        style="@style/Widget.MaterialX.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_standard"
+        android:text="@string/value_animator_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/object_animator_button"
+        style="@style/Widget.MaterialX.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_standard"
+        android:text="@string/object_animator_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/animator_set_button"
+        style="@style/Widget.MaterialX.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_standard"
+        android:text="@string/animator_set_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/layout_transition_button"
+        style="@style/Widget.MaterialX.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_standard"
+        android:text="@string/layout_transition_label" />
+
+</LinearLayout>

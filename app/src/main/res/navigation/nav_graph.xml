@@ -20,6 +20,9 @@
         <action
             android:id="@+id/action_homeFragment_to_colorPaletteFragment"
             app:destination="@id/colorPaletteFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_animationsFragment"
+            app:destination="@id/animationsFragment" />
     </fragment>
     <fragment
         android:id="@+id/typographyFragment"
@@ -56,4 +59,42 @@
         android:name="com.github.odaridavid.materialx.colorpalette.ColorPaletteFragment"
         android:label="@string/color_palette_label"
         tools:layout="@layout/fragment_color_palette" />
+    <fragment
+        android:id="@+id/valueAnimationsFragment"
+        android:name="com.github.odaridavid.materialx.animations.ValueAnimatorFragment"
+        android:label="@string/value_animator_label"
+        tools:layout="@layout/fragment_value_animations" />
+    <fragment
+        android:id="@+id/animationsFragment"
+        android:name="com.github.odaridavid.materialx.animations.AnimationsFragment"
+        android:label="@string/animations_label"
+        tools:layout="@layout/fragment_animations">
+        <action
+            android:id="@+id/action_animationsFragment_to_valueAnimationsFragment"
+            app:destination="@id/valueAnimationsFragment" />
+        <action
+            android:id="@+id/action_animationsFragment_to_objectAnimatorFragment"
+            app:destination="@id/objectAnimatorFragment" />
+        <action
+            android:id="@+id/action_animationsFragment_to_animatorSetFragment"
+            app:destination="@id/animatorSetFragment" />
+        <action
+            android:id="@+id/action_animationsFragment_to_layoutTransitionFragment"
+            app:destination="@id/layoutTransitionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/objectAnimatorFragment"
+        android:name="com.github.odaridavid.materialx.animations.ObjectAnimatorFragment"
+        android:label="@string/object_animator_label"
+        tools:layout="@layout/fragment_object_animator" />
+    <fragment
+        android:id="@+id/animatorSetFragment"
+        android:name="com.github.odaridavid.materialx.animations.AnimatorSetFragment"
+        android:label="@string/animator_set_label"
+        tools:layout="@layout/fragment_animator_set" />
+    <fragment
+        android:id="@+id/layoutTransitionFragment"
+        android:name="com.github.odaridavid.materialx.animations.LayoutTransitionFragment"
+        android:label="@string/layout_transition_label"
+        tools:layout="@layout/fragment_layout_transition" />
 </navigation>

@@ -15,6 +15,10 @@ and more.
 
 <img src="art/cp1.png" width="200"> <img src="art/cp2.png" width="200">
 
+## Animations
+
+<img src="art/as.gif" width="200"> <img src="art/it.gif" width="200"> <img src="art/oa.png" width="200"> <img src="art/va.png" width="200">
+
 ### Attributions
 
 Images by :

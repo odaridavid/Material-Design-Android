@@ -120,4 +120,42 @@
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/animations_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_standard"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="@dimen/card_elevation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/material_buttons_card">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="@dimen/typography_icon_width"
+                android:layout_height="@dimen/typography_icon_height"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/margin_standard"
+                android:contentDescription="@string/typography_icon_content_description"
+                android:src="@drawable/ic_animation_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/margin_standard"
+                android:text="Animations"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

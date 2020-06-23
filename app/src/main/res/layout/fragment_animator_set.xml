@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".animations.AnimatorSetFragment">
+
+    <ImageView
+        android:id="@+id/image_one_image_view"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_margin="@dimen/margin_standard"
+        android:src="@drawable/city"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image_two_image_view"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_margin="@dimen/margin_standard"
+        android:src="@drawable/fox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_one_image_view" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/start_animation_button"
+        style="@style/Widget.MaterialX.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_standard"
+        android:text="@string/start_label"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

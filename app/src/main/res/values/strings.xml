@@ -1,5 +1,17 @@
 <resources>
     <string name="app_name">Material-X</string>
+
+    <!-- Dummy Sample Text-->
+    <string name="dummy_text_1">A new dawn</string>
+    <string name="dummy_text_2">Random text about xyz doing xyz.Check out more details as xy dives deeper.</string>
+    <string name="dummy_text_3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.
+    </string>
     <!--Typography-->
     <string name="label_typography">Typography</string>
     <string name="typography_icon_content_description">Typography Icon</string>
@@ -22,8 +34,6 @@
     <string name="reference_label">Reference</string>
 
     <!--Material Buttons-->
-    <string name="dummy_text_1">A new dawn</string>
-    <string name="dummy_text_2">Random text about xyz doing xyz.Check out more details as xy dives deeper.</string>
     <string name="bookmark_label">Bookmark</string>
     <string name="explore_label">Explore</string>
     <string name="explore_articles_label">Explore Articles</string>
@@ -41,5 +51,11 @@
     <string name="light_muted_color_label">Light Muted Color</string>
     <string name="muted_color_label">Muted Color</string>
     <string name="color_palette_label">Color Palette</string>
-
+    <!--Animations-->
+    <string name="start_label">Start</string>
+    <string name="animations_label">Animations</string>
+    <string name="object_animator_label">Object Animator</string>
+    <string name="value_animator_label">Value Animator</string>
+    <string name="animator_set_label">Animator Set</string>
+    <string name="layout_transition_label">Layout Transition</string>
 </resources>

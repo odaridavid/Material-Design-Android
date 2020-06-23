@@ -19,6 +19,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.card.MaterialCardView
 
+//TODO Viewbinding? maybe
 internal class HomeFragment : Fragment(R.layout.fragment_home) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -32,6 +33,13 @@ internal class HomeFragment : Fragment(R.layout.fragment_home) {
         view.findViewById<MaterialCardView>(R.id.color_palette_card).setOnClickListener {
             navigateToColorPalette()
         }
+        view.findViewById<MaterialCardView>(R.id.animations_card).setOnClickListener {
+            navigateToAnimations()
+        }
+    }
+
+    private fun navigateToAnimations() {
+        findNavController().navigate(R.id.action_homeFragment_to_animationsFragment)
     }
 
     private fun navigateToTypography() {
