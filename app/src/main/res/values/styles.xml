@@ -63,6 +63,7 @@
     </style>
 
     <style name="Widget.MaterialX.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:backgroundTint">@color/bg_toggle_state</item>
         <item name="strokeColor">@color/color_pink_900_light</item>
         <item name="rippleColor">@color/color_yellow_A700</item>
         <item name="android:textColor">@color/color_grey_800</item>

@@ -1,6 +1,7 @@
 ## Material-X
 
-My stash for all things material, animations, transitions, Animated VD, Color Palette API, UI design, and wonderful UX combos that I have seen and skills gained thus far.
+My stash for all things material, animations, transitions, Animated VD, Color Palette API, UI design 
+and more.
 
 ### Typography
 

@@ -5,16 +5,16 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import androidx.annotation.DrawableRes
-import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.palette.graphics.Palette
 import com.github.odaridavid.materialx.R
+import com.github.odaridavid.materialx.commons.getColor
 
 //TODO Enable picking drawable to evaluate color
 internal class ColorPaletteFragment : Fragment(R.layout.fragment_color_palette) {
 
     private val defaultColor: Int
-        get() = ContextCompat.getColor(requireContext(), R.color.color_white)
+        get() = getColor(R.color.color_white)
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

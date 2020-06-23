@@ -46,7 +46,7 @@ android {
 }
 
 dependencies {
-    def materialVersion = "1.1.0"
+    def materialVersion = "1.2.0-alpha03"
     def navVersion = "2.3.0-rc01"
     def paletteVersion = "1.0.0"
     def coreKtxVersion = "1.3.0"

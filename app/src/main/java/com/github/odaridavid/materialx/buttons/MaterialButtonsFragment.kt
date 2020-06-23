@@ -18,7 +18,7 @@ internal class MaterialButtonsFragment : Fragment(R.layout.fragment_material_but
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         materialButtonToggleGroup =
-            view.findViewById<MaterialButtonToggleGroup>(R.id.material_toggle_button).apply {
+            view.findViewById<MaterialButtonToggleGroup>(R.id.material_toggle_group).apply {
                 addOnButtonCheckedListener(materialButtonToggleGroupListener)
             }
     }
