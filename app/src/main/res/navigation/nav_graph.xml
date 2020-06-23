@@ -13,16 +13,32 @@
         tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_typographyFragment"
-            app:destination="@id/typographyFragment" />
+            app:destination="@id/typographyFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
         <action
             android:id="@+id/action_homeFragment_to_materialButtonsFragment"
-            app:destination="@id/materialButtonsFragment" />
+            app:destination="@id/materialButtonsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
         <action
             android:id="@+id/action_homeFragment_to_colorPaletteFragment"
-            app:destination="@id/colorPaletteFragment" />
+            app:destination="@id/colorPaletteFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
         <action
             android:id="@+id/action_homeFragment_to_animationsFragment"
-            app:destination="@id/animationsFragment" />
+            app:destination="@id/animationsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/typographyFragment"
@@ -31,10 +47,18 @@
         tools:layout="@layout/fragment_typography">
         <action
             android:id="@+id/action_typographyFragment_to_typographyDemoFragment"
-            app:destination="@id/typographyDemoFragment" />
+            app:destination="@id/typographyDemoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
         <action
             android:id="@+id/action_typographyFragment_to_typographyReferenceFragment"
-            app:destination="@id/typographyReferenceFragment" />
+            app:destination="@id/typographyReferenceFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/typographyDemoFragment"
@@ -71,16 +95,32 @@
         tools:layout="@layout/fragment_animations">
         <action
             android:id="@+id/action_animationsFragment_to_valueAnimationsFragment"
-            app:destination="@id/valueAnimationsFragment" />
+            app:destination="@id/valueAnimationsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
         <action
             android:id="@+id/action_animationsFragment_to_objectAnimatorFragment"
-            app:destination="@id/objectAnimatorFragment" />
+            app:destination="@id/objectAnimatorFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
         <action
             android:id="@+id/action_animationsFragment_to_animatorSetFragment"
-            app:destination="@id/animatorSetFragment" />
+            app:destination="@id/animatorSetFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
         <action
             android:id="@+id/action_animationsFragment_to_layoutTransitionFragment"
-            app:destination="@id/layoutTransitionFragment" />
+            app:destination="@id/layoutTransitionFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/objectAnimatorFragment"
