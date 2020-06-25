@@ -17,7 +17,7 @@ and more.
 
 ## Animations
 
-<img src="art/as.gif" width="200"> <img src="art/it.gif" width="200"> <img src="art/oa.png" width="200"> <img src="art/va.png" width="200">
+<img src="art/as.gif" width="200"> <img src="art/it.gif" width="200"> <img src="art/oa.gif" width="200"> <img src="art/va.gif" width="200">
 
 ### Attributions
 
