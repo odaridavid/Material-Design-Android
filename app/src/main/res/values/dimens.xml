@@ -5,8 +5,8 @@
     <dimen name="margin_small">8dp</dimen>
 
     <!--Typography Dimensions-->
-    <dimen name="typography_icon_width">48dp</dimen>
-    <dimen name="typography_icon_height">48dp</dimen>
+    <dimen name="category_icon_width">48dp</dimen>
+    <dimen name="category_icon_height">48dp</dimen>
     <dimen name="card_corner_radius">0dp</dimen>
     <dimen name="card_elevation">4dp</dimen>
     <dimen name="padding_small">8dp</dimen>

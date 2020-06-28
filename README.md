@@ -3,21 +3,35 @@
 My stash for all things material, animations, transitions, Animated VD, Color Palette API, UI design 
 and more.
 
+## Table of Contents
+
+- [Typography](#typography)
+- [Material Buttons](#material-buttons)
+- [Color Palette](#color-palette)
+- [Animations](#animations)
+- [Input](#input)
+- [Attributions](#attributions)
+- [License](#license)
+
 ### Typography
 
 <img src="art/typography.png" width="200"> <img src="art/typography3.png" width="200">
 
-## Material Buttons
+### Material Buttons
 
 <img src="art/mb.png" width="200">
 
-## Color Palette
+### Color Palette
 
 <img src="art/cp1.png" width="200"> <img src="art/cp2.png" width="200">
 
-## Animations
+### Animations
 
 <img src="art/as.gif" width="200"> <img src="art/it.gif" width="200"> <img src="art/oa.gif" width="200"> <img src="art/va.gif" width="200">
+
+### Input 
+
+<img src="art/input.png" width="200">
 
 ### Attributions
 

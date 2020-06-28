@@ -19,7 +19,7 @@
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
         <action
-            android:id="@+id/action_homeFragment_to_materialButtonsFragment"
+            android:id="@+id/action_homeFragment_to_buttonsFragment"
             app:destination="@id/materialButtonsFragment"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
@@ -35,6 +35,13 @@
         <action
             android:id="@+id/action_homeFragment_to_animationsFragment"
             app:destination="@id/animationsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment_to_inputFragment"
+            app:destination="@id/inputFragment"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
@@ -75,13 +82,13 @@
     <fragment
         android:id="@+id/materialButtonsFragment"
         android:name="com.github.odaridavid.materialx.buttons.MaterialButtonsFragment"
-        android:label="@string/material_buttons_label"
+        android:label="@string/label_buttons"
         tools:layout="@layout/fragment_material_buttons" />
 
     <fragment
         android:id="@+id/colorPaletteFragment"
         android:name="com.github.odaridavid.materialx.colorpalette.ColorPaletteFragment"
-        android:label="@string/color_palette_label"
+        android:label="@string/label_color_palette"
         tools:layout="@layout/fragment_color_palette" />
     <fragment
         android:id="@+id/valueAnimationsFragment"
@@ -91,7 +98,7 @@
     <fragment
         android:id="@+id/animationsFragment"
         android:name="com.github.odaridavid.materialx.animations.AnimationsFragment"
-        android:label="@string/animations_label"
+        android:label="@string/label_animations"
         tools:layout="@layout/fragment_animations">
         <action
             android:id="@+id/action_animationsFragment_to_valueAnimationsFragment"
@@ -137,4 +144,9 @@
         android:name="com.github.odaridavid.materialx.animations.LayoutTransitionFragment"
         android:label="@string/layout_transition_label"
         tools:layout="@layout/fragment_layout_transition" />
+    <fragment
+        android:id="@+id/inputFragment"
+        android:name="com.github.odaridavid.materialx.input.InputFragment"
+        android:label="@string/label_input"
+        tools:layout="@layout/fragment_input" />
 </navigation>

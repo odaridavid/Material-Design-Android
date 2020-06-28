@@ -12,6 +12,7 @@
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
         anim id est laborum.
     </string>
+
     <!--Typography-->
     <string name="label_typography">Typography</string>
     <string name="typography_icon_content_description">Typography Icon</string>
@@ -33,7 +34,7 @@
     <string name="demo_label">Demo</string>
     <string name="reference_label">Reference</string>
 
-    <!--Material Buttons-->
+    <!--Buttons-->
     <string name="bookmark_label">Bookmark</string>
     <string name="explore_label">Explore</string>
     <string name="explore_articles_label">Explore Articles</string>
@@ -43,19 +44,27 @@
     <string name="audio_label">Audio</string>
     <string name="video_label">Video</string>
     <string name="text_label">Text</string>
-    <string name="material_buttons_label">Material Buttons</string>
+    <string name="label_buttons">Buttons</string>
+
+    <!-- Color Palette-->
     <string name="vibrant_color_label">Vibrant Color</string>
     <string name="light_vibrant_color_label">Light Vibrant Color</string>
     <string name="dark_vibrant_color_label">Dark Vibrant Color</string>
     <string name="dark_muted_color_label">Dark Muted Color</string>
     <string name="light_muted_color_label">Light Muted Color</string>
     <string name="muted_color_label">Muted Color</string>
-    <string name="color_palette_label">Color Palette</string>
+    <string name="label_color_palette">Color Palette</string>
+
     <!--Animations-->
     <string name="start_label">Start</string>
-    <string name="animations_label">Animations</string>
+    <string name="label_animations">Animations</string>
     <string name="object_animator_label">Object Animator</string>
     <string name="value_animator_label">Value Animator</string>
     <string name="animator_set_label">Animator Set</string>
     <string name="layout_transition_label">Layout Transition</string>
+
+    <!--Input-->
+    <string name="dummy_hint">Enter Something</string>
+    <string name="label_input">Input</string>
+    <string name="error_placeholder">Oops!! Check Input</string>
 </resources>

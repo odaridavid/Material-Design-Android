@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            style="@style/Widget.MaterialX.AppCompat.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin_standard"
+            android:background="@drawable/bg_edit_text"
+            android:drawableStart="@drawable/ic_input_24"
+            android:drawablePadding="@dimen/padding_small"
+            android:hint="@string/dummy_hint"
+            android:inputType="text|textMultiLine|textLongMessage"
+            android:padding="@dimen/padding_small" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_standard"
+            android:hint="@string/dummy_hint"
+            app:boxStrokeColor="@color/color_pink_900"
+            app:boxStrokeErrorColor="@color/color_orange_300"
+            app:endIconMode="password_toggle"
+            app:errorEnabled="true"
+            app:errorIconDrawable="@drawable/ic_error_24"
+            app:hintTextColor="@color/color_pink_900_light"
+            app:startIconContentDescription="Lock icon"
+            app:startIconDrawable="@drawable/ic_lock_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_standard"
+            android:hint="@string/dummy_hint"
+            app:boxStrokeColor="@color/color_pink_900"
+            app:endIconMode="clear_text"
+            app:hintTextColor="@color/color_pink_900_light">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/dropdown_input"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_standard"
+            android:hint="@string/dummy_hint"
+            app:boxStrokeColor="@color/color_pink_900"
+            app:endIconMode="dropdown_menu"
+            app:endIconTint="@color/color_grey_800"
+            app:hintTextColor="@color/color_pink_900_light">
+
+            <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_standard"
+            android:hint="@string/dummy_hint"
+            android:textColorHint="@color/color_white"
+            app:boxBackgroundColor="@color/color_black"
+            app:counterEnabled="true"
+            app:counterMaxLength="15"
+            app:counterTextColor="@color/color_grey_800"
+            app:helperText="This is a helper"
+            app:helperTextEnabled="true"
+            app:hintTextColor="@color/color_pink_900_light"
+            app:prefixText="Pre"
+            app:prefixTextColor="@color/color_grey_800_light"
+            app:suffixText="Post"
+            app:suffixTextColor="@color/color_grey_800_light">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:textColor="@color/color_white"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_standard"
+            android:hint="@string/dummy_hint"
+            android:textColorHint="@color/color_grey_800_light"
+            app:boxBackgroundColor="@color/color_white"
+            app:boxStrokeColor="@color/color_pink_900"
+            app:counterEnabled="true"
+            app:counterMaxLength="15"
+            app:counterTextColor="@color/color_grey_800"
+            app:helperText="This is a helper"
+            app:helperTextEnabled="true"
+            app:hintTextColor="@color/color_pink_900_light"
+            app:prefixText="Pre"
+            app:prefixTextColor="@color/color_grey_800_light"
+            app:suffixText="Post"
+            app:suffixTextColor="@color/color_grey_800_light">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+</ScrollView>
