@@ -15,43 +15,24 @@ package com.github.odaridavid.materialx
 
 import android.os.Bundle
 import android.view.View
+import androidx.annotation.IdRes
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.google.android.material.card.MaterialCardView
+import androidx.recyclerview.widget.RecyclerView
 
-//TODO Viewbinding? maybe
+
 internal class HomeFragment : Fragment(R.layout.fragment_home) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        view.findViewById<MaterialCardView>(R.id.typography_card).setOnClickListener {
-            navigateToTypography()
-        }
-        view.findViewById<MaterialCardView>(R.id.material_buttons_card).setOnClickListener {
-            navigateToMaterialButtons()
-        }
-        view.findViewById<MaterialCardView>(R.id.color_palette_card).setOnClickListener {
-            navigateToColorPalette()
-        }
-        view.findViewById<MaterialCardView>(R.id.animations_card).setOnClickListener {
-            navigateToAnimations()
-        }
+        val categoryRecyclerView =
+            view.findViewById<RecyclerView>(R.id.home_categories_recycler_view)
+        categoryRecyclerView.adapter =
+            HomeCategoryAdapter { navAction -> navigate(navAction) }.apply {
+                submitList(getHomeCategories())
+            }
     }
 
-    private fun navigateToAnimations() {
-        findNavController().navigate(R.id.action_homeFragment_to_animationsFragment)
-    }
-
-    private fun navigateToTypography() {
-        findNavController().navigate(R.id.action_homeFragment_to_typographyFragment)
-    }
-
-    private fun navigateToMaterialButtons() {
-        findNavController().navigate(R.id.action_homeFragment_to_materialButtonsFragment)
-    }
-
-    private fun navigateToColorPalette() {
-        findNavController().navigate(R.id.action_homeFragment_to_colorPaletteFragment)
-    }
+    private fun navigate(@IdRes id: Int) = findNavController().navigate(id)
 
 }
