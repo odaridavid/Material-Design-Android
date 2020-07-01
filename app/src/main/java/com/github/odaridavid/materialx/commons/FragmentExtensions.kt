@@ -14,10 +14,19 @@
 package com.github.odaridavid.materialx.commons
 
 import androidx.annotation.ColorRes
+import androidx.annotation.IdRes
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
+import com.google.android.material.button.MaterialButton
 
 
 internal fun Fragment.getColor(@ColorRes id: Int): Int {
     return ContextCompat.getColor(requireContext(), id)
+}
+
+internal fun Fragment.navigateOnClick(@IdRes viewId: Int, @IdRes navAction: Int) {
+    view?.findViewById<MaterialButton>(viewId)?.setOnClickListener {
+        findNavController().navigate(navAction)
+    }
 }

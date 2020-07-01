@@ -16,21 +16,22 @@ package com.github.odaridavid.materialx.typography
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
 import com.github.odaridavid.materialx.R
-import com.google.android.material.button.MaterialButton
+import com.github.odaridavid.materialx.commons.navigateOnClick
 
 //TODO Animate while transitioning to new fragment
 internal class TypographyFragment : Fragment(R.layout.fragment_typography) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        view.findViewById<MaterialButton>(R.id.typography_reference_button).setOnClickListener {
-            findNavController().navigate(R.id.action_typographyFragment_to_typographyReferenceFragment)
-        }
-        view.findViewById<MaterialButton>(R.id.typography_demo_button).setOnClickListener {
-            findNavController().navigate(R.id.action_typographyFragment_to_typographyDemoFragment)
-        }
+        navigateOnClick(
+            R.id.typography_reference_button,
+            R.id.action_typographyFragment_to_typographyReferenceFragment
+        )
+        navigateOnClick(
+            R.id.typography_demo_button,
+            R.id.action_typographyFragment_to_typographyDemoFragment
+        )
     }
 
 }
