@@ -6,7 +6,9 @@ and more.
 ## Table of Contents
 
 - [Typography](#typography)
-- [Material Buttons](#material-buttons)
+- [Buttons](#buttons)
+   - [Material Buttons](#material-buttons)
+   - [Floating Action Buttons](#floating-action-buttons)
 - [Color Palette](#color-palette)
 - [Animations](#animations)
 - [Input](#input)
@@ -17,9 +19,15 @@ and more.
 
 <img src="art/typography.png" width="200"> <img src="art/typography3.png" width="200">
 
-### Material Buttons
+### Buttons
+
+#### Material Buttons
 
 <img src="art/mb.png" width="200">
+
+#### Floating Action Buttons
+
+<img src="art/fabs.gif" width="200">
 
 ### Color Palette
 
