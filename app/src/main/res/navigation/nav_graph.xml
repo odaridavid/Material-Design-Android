@@ -19,13 +19,6 @@
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
         <action
-            android:id="@+id/action_homeFragment_to_buttonsFragment"
-            app:destination="@id/materialButtonsFragment"
-            app:enterAnim="@anim/slide_in_right"
-            app:exitAnim="@anim/slide_out_left"
-            app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_right" />
-        <action
             android:id="@+id/action_homeFragment_to_colorPaletteFragment"
             app:destination="@id/colorPaletteFragment"
             app:enterAnim="@anim/slide_in_right"
@@ -46,6 +39,9 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment_to_buttonsFragment"
+            app:destination="@id/buttonsFragment" />
     </fragment>
     <fragment
         android:id="@+id/typographyFragment"
@@ -82,7 +78,7 @@
     <fragment
         android:id="@+id/materialButtonsFragment"
         android:name="com.github.odaridavid.materialx.buttons.MaterialButtonsFragment"
-        android:label="@string/label_buttons"
+        android:label="@string/material_buttons_label"
         tools:layout="@layout/fragment_material_buttons" />
 
     <fragment
@@ -149,4 +145,29 @@
         android:name="com.github.odaridavid.materialx.input.InputFragment"
         android:label="@string/label_input"
         tools:layout="@layout/fragment_input" />
+    <fragment
+        android:id="@+id/buttonsFragment"
+        android:name="com.github.odaridavid.materialx.buttons.ButtonsFragment"
+        android:label="@string/label_buttons"
+        tools:layout="@layout/fragment_buttons">
+        <action
+            android:id="@+id/action_buttonsFragment_to_floatingActionButtonFragment"
+            app:destination="@id/floatingActionButtonFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_buttonsFragment_to_materialButtonsFragment"
+            app:destination="@id/materialButtonsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/floatingActionButtonFragment"
+        android:name="com.github.odaridavid.materialx.buttons.FloatingActionButtonFragment"
+        android:label="@string/floating_action_buttons_label"
+        tools:layout="@layout/fragment_floating_action_button" />
 </navigation>

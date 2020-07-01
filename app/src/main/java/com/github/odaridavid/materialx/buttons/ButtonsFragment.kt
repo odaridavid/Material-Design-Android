@@ -17,27 +17,20 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import com.github.odaridavid.materialx.R
-import com.google.android.material.button.MaterialButtonToggleGroup
+import com.github.odaridavid.materialx.commons.navigateOnClick
 
 
-internal class MaterialButtonsFragment : Fragment(R.layout.fragment_material_buttons) {
-
-    private lateinit var materialButtonToggleGroup: MaterialButtonToggleGroup
-    private val materialButtonToggleGroupListener =
-        MaterialButtonToggleGroup.OnButtonCheckedListener { group, checkedId, isChecked ->
-            //Logic here
-        }
+internal class ButtonsFragment : Fragment(R.layout.fragment_buttons) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        materialButtonToggleGroup =
-            view.findViewById<MaterialButtonToggleGroup>(R.id.material_toggle_group).apply {
-                addOnButtonCheckedListener(materialButtonToggleGroupListener)
-            }
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        materialButtonToggleGroup.removeOnButtonCheckedListener(materialButtonToggleGroupListener)
+        navigateOnClick(
+            R.id.material_button,
+            R.id.action_buttonsFragment_to_materialButtonsFragment
+        )
+        navigateOnClick(
+            R.id.floating_action_button,
+            R.id.action_buttonsFragment_to_floatingActionButtonFragment
+        )
     }
 }

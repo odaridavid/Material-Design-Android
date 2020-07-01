@@ -45,6 +45,9 @@
     <string name="video_label">Video</string>
     <string name="text_label">Text</string>
     <string name="label_buttons">Buttons</string>
+    <string name="favs_button">Favs Button</string>
+    <string name="material_buttons_label">Material Buttons</string>
+    <string name="floating_action_buttons_label">Floating Action Buttons</string>
 
     <!-- Color Palette-->
     <string name="vibrant_color_label">Vibrant Color</string>
@@ -67,4 +70,5 @@
     <string name="dummy_hint">Enter Something</string>
     <string name="label_input">Input</string>
     <string name="error_placeholder">Oops!! Check Input</string>
+    <string name="favorites_label">Favorites</string>
 </resources>
