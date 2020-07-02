@@ -30,6 +30,11 @@ internal class AnimationsFragment : Fragment(R.layout.fragment_animations) {
             R.id.action_animationsFragment_to_layoutTransitionFragment
         )
 
+        navigateOnClick(
+            R.id.lottie_animation_button,
+            R.id.action_animationsFragment_to_lottieFragment
+        )
+
     }
 
 }

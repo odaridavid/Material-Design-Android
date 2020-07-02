@@ -124,6 +124,13 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_animationsFragment_to_lottieFragment"
+            app:destination="@id/lottieFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/objectAnimatorFragment"
@@ -170,4 +177,9 @@
         android:name="com.github.odaridavid.materialx.buttons.FloatingActionButtonFragment"
         android:label="@string/floating_action_buttons_label"
         tools:layout="@layout/fragment_floating_action_button" />
+    <fragment
+        android:id="@+id/lottieFragment"
+        android:name="com.github.odaridavid.materialx.animations.LottieFragment"
+        android:label="@string/lottie_animations_label"
+        tools:layout="@layout/fragment_lottie" />
 </navigation>

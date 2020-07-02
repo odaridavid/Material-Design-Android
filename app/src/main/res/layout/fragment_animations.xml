@@ -43,4 +43,13 @@
         android:layout_margin="@dimen/margin_standard"
         android:text="@string/layout_transition_label" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/lottie_animation_button"
+        style="@style/Widget.MaterialX.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_standard"
+        android:text="@string/lottie_animations_label" />
+
 </LinearLayout>

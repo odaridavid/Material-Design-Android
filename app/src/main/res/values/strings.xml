@@ -65,10 +65,12 @@
     <string name="value_animator_label">Value Animator</string>
     <string name="animator_set_label">Animator Set</string>
     <string name="layout_transition_label">Layout Transition</string>
+    <string name="lottie_animations_label">Lottie Animations</string>
 
     <!--Input-->
     <string name="dummy_hint">Enter Something</string>
     <string name="label_input">Input</string>
     <string name="error_placeholder">Oops!! Check Input</string>
     <string name="favorites_label">Favorites</string>
+
 </resources>

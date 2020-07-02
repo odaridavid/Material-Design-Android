@@ -55,6 +55,7 @@ dependencies {
     def appCompatVersion = "1.1.0"
     def constraintLayoutVersion = "1.1.3"
     def legacySupportVersion = "1.0.0"
+    def lottieVersion = "3.4.1"
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation "androidx.core:core-ktx:$coreKtxVersion"
@@ -65,4 +66,5 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:$navVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navVersion"
     implementation "androidx.palette:palette:$paletteVersion"
+    implementation "com.airbnb.android:lottie:$lottieVersion"
 }
