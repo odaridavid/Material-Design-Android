@@ -11,8 +11,11 @@ and more.
    - [Floating Action Buttons](#floating-action-buttons)
 - [Color Palette](#color-palette)
 - [Animations](#animations)
+   - [Android APIs](#android-apis)
+   - [Lottie](#lottie)
 - [Input](#input)
 - [Attributions](#attributions)
+- [References](#references)
 - [License](#license)
 
 ### Typography
@@ -35,11 +38,29 @@ and more.
 
 ### Animations
 
+#### Android APIs
+
 <img src="art/as.gif" width="200"> <img src="art/it.gif" width="200"> <img src="art/oa.gif" width="200"> <img src="art/va.gif" width="200">
+
+#### Lottie
+
+<img src="art/lottie.gif" width="200">
 
 ### Input 
 
 <img src="art/input.png" width="200">
+
+### References
+
+- [Material Design Docs](https://material.io/develop/android)
+- [Material Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0)
+- [Animations](https://developer.android.com/training/animation)
+
+### Libraries
+
+- [Jetpack](https://developer.android.com/jetpack)
+- [Material Design](https://material.io/develop/android/docs/getting-started/)
+- [Lottie](https://github.com/airbnb/lottie-android)
 
 ### Attributions
 
