@@ -20,9 +20,9 @@ import android.animation.AnimatorListenerAdapter
  * Use AnimatorListenerAdapter over AnimatorListener if you dont want to override
  * all listener methods.
  */
-class AnimatorListener(
-    inline val onStart: (() -> Unit)? = null,
-    inline val onEnd: (() -> Unit)? = null
+internal class AnimatorListener(
+    private inline val onStart: (() -> Unit)? = null,
+    private inline val onEnd: (() -> Unit)? = null
 ) : AnimatorListenerAdapter() {
 
     override fun onAnimationStart(animation: Animator?) {
