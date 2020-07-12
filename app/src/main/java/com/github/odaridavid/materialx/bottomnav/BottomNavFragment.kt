@@ -33,25 +33,25 @@ internal class BottomNavFragment : Fragment(R.layout.fragment_bottom_navigation)
         bottomNav = view.findViewById(R.id.bottom_navigation)
         bottomNav?.setOnNavigationItemSelectedListener(this)
         //Set a notification badge
-        val badge = bottomNav?.getOrCreateBadge(DESTINATION.NOTIFICATIONS.id)
+        val badge = bottomNav?.getOrCreateBadge(Destination.NOTIFICATIONS.id)
         badge?.isVisible = true
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         return when (val id = item.itemId) {
-            DESTINATION.HOME.id -> {
+            Destination.HOME.id -> {
                 context?.showToast("Home")
                 true
             }
-            DESTINATION.SEARCH.id -> {
+            Destination.SEARCH.id -> {
                 context?.showToast("Search")
                 true
             }
-            DESTINATION.SETTINGS.id -> {
+            Destination.SETTINGS.id -> {
                 context?.showToast("Settings")
                 true
             }
-            DESTINATION.NOTIFICATIONS.id -> {
+            Destination.NOTIFICATIONS.id -> {
                 context?.showToast("Notifications")
                 val badgeDrawable = bottomNav?.getBadge(id)
                 badgeDrawable?.run {
@@ -65,7 +65,7 @@ internal class BottomNavFragment : Fragment(R.layout.fragment_bottom_navigation)
 
 }
 
-enum class DESTINATION(@IdRes val id: Int) {
+enum class Destination(@IdRes val id: Int) {
     HOME(R.id.action_home),
     SEARCH(R.id.action_search),
     SETTINGS(R.id.action_settings),
