@@ -41,7 +41,18 @@
             app:popExitAnim="@anim/slide_out_right" />
         <action
             android:id="@+id/action_homeFragment_to_buttonsFragment"
-            app:destination="@id/buttonsFragment" />
+            app:destination="@id/buttonsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment_to_bottomNavFragment"
+            app:destination="@id/bottomNavFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/typographyFragment"
@@ -182,4 +193,9 @@
         android:name="com.github.odaridavid.materialx.animations.LottieFragment"
         android:label="@string/lottie_animations_label"
         tools:layout="@layout/fragment_lottie" />
+    <fragment
+        android:id="@+id/bottomNavFragment"
+        android:name="com.github.odaridavid.materialx.bottomnav.BottomNavFragment"
+        android:label="Bottom Navigation"
+        tools:layout="@layout/fragment_bottom_navigation" />
 </navigation>
