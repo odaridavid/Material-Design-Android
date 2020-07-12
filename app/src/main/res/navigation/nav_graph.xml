@@ -53,6 +53,9 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment_to_gridsFragment"
+            app:destination="@id/gridsFragment" />
     </fragment>
     <fragment
         android:id="@+id/typographyFragment"
@@ -198,4 +201,9 @@
         android:name="com.github.odaridavid.materialx.bottomnav.BottomNavFragment"
         android:label="Bottom Navigation"
         tools:layout="@layout/fragment_bottom_navigation" />
+    <fragment
+        android:id="@+id/gridsFragment"
+        android:name="com.github.odaridavid.materialx.grids.GridsFragment"
+        android:label="@string/label_grids"
+        tools:layout="@layout/fragment_grids" />
 </navigation>

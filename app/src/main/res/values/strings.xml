@@ -80,5 +80,11 @@
     <string name="menu_title_settings">Settings</string>
     <string name="menu_title_notifications">Notifications</string>
 
+    <!--Grids-->
+    <string name="label_grids">Grids</string>
+    <string name="city">City</string>
+    <string name="current_grid_content_description">Selected Grid View Option</string>
+    <string name="title_grid_items">Grid Items</string>
+
 
 </resources>
