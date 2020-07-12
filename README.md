@@ -15,6 +15,7 @@ and more.
    - [Lottie](#lottie)
 - [Input](#input)
 - [Bottom Navigation](#bottom-navigation)
+- [Grids](#grids)
 - [Attributions](#attributions)
 - [References](#references)
 - [License](#license)
@@ -55,6 +56,10 @@ and more.
 
 <img src="art/bnav.png" width="200">
 
+### Grids
+
+<img src="art/grida.png" width="200"> <img src="art/gridb.png" width="200"> <img src="art/gridc.png" width="200">
+
 ### References
 
 - [Material Design Docs](https://material.io/develop/android)
@@ -70,10 +75,13 @@ and more.
 ### Attributions
 
 Images by :
+
 - <a href="https://pixabay.com/users/RitaE-19628/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5311293">RitaE</a>,
 - <a href="https://pixabay.com/users/WagnerAnne-12610361/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5289802">WagnerAnne</a>
 - <a href="https://pixabay.com/users/Alexas_Fotos-686414/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5303221">Alexas_Fotos</a>
 - <a href="https://pixabay.com/users/mystraysoul-10217405/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5299607">Полина Андреева</a>
+- <a href="https://pixabay.com/users/Syaibatulhamdi-13452116/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5383607">Syaibatul Hamdi</a> 
+- <a href="https://pixabay.com/users/matthiasboeckel-3930681/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5388631">Matthias Böckel</a>
 
 from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5289802">Pixabay</a>
  
