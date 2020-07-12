@@ -51,6 +51,11 @@ internal fun getHomeCategories(): List<HomeCategory> {
             R.string.label_input,
             R.drawable.ic_input_24,
             R.id.action_homeFragment_to_inputFragment
+        ),
+        HomeCategory(
+            R.string.label_bottom_navigation,
+            R.drawable.ic_navigation_24,
+            R.id.action_homeFragment_to_bottomNavFragment
         )
     )
 }
