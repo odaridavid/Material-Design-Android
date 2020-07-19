@@ -13,6 +13,7 @@ and more.
 - [Animations](#animations)
    - [Android APIs](#android-apis)
    - [Lottie](#lottie)
+   - [Motion Layout](#motion-layout)
 - [Input](#input)
 - [Bottom Navigation](#bottom-navigation)
 - [Grids](#grids)
@@ -47,6 +48,10 @@ and more.
 #### Lottie
 
 <img src="art/lottie.gif" width="200">
+
+#### Motion Layout
+
+<img src="art/motion.gif" width="200">
 
 ### Input 
 

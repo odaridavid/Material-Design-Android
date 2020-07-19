@@ -55,7 +55,18 @@
             app:popExitAnim="@anim/slide_out_right" />
         <action
             android:id="@+id/action_homeFragment_to_gridsFragment"
-            app:destination="@id/gridsFragment" />
+            app:destination="@id/gridsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment_to_motionLayoutFragment"
+            app:destination="@id/motionLayoutFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/typographyFragment"
@@ -206,4 +217,9 @@
         android:name="com.github.odaridavid.materialx.grids.GridsFragment"
         android:label="@string/label_grids"
         tools:layout="@layout/fragment_grids" />
+    <fragment
+        android:id="@+id/motionLayoutFragment"
+        android:name="com.github.odaridavid.materialx.motion.MotionLayoutFragment"
+        android:label="@string/label_motion"
+        tools:layout="@layout/fragment_motion_layout" />
 </navigation>

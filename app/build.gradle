@@ -53,7 +53,7 @@ dependencies {
     def paletteVersion = "1.0.0"
     def coreKtxVersion = "1.3.0"
     def appCompatVersion = "1.1.0"
-    def constraintLayoutVersion = "1.1.3"
+    def constraintLayoutVersion = "2.0.0-beta8"
     def legacySupportVersion = "1.0.0"
     def lottieVersion = "3.4.1"
 

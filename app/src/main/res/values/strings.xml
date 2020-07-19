@@ -82,9 +82,11 @@
 
     <!--Grids-->
     <string name="label_grids">Grids</string>
-    <string name="city">City</string>
     <string name="current_grid_content_description">Selected Grid View Option</string>
     <string name="title_grid_items">Grid Items</string>
+
+    <!--Motion-->
+    <string name="label_motion">Motion</string>
 
 
 </resources>
