@@ -61,6 +61,11 @@ internal fun getHomeCategories(): List<HomeCategory> {
             R.string.label_grids,
             R.drawable.ic_grid_24,
             R.id.action_homeFragment_to_gridsFragment
+        ),
+        HomeCategory(
+            R.string.label_motion,
+            R.drawable.ic_motion_24,
+            R.id.action_homeFragment_to_motionLayoutFragment
         )
     )
 }
