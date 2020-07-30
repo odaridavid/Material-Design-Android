@@ -88,5 +88,12 @@
     <!--Motion-->
     <string name="label_motion">Motion</string>
 
+    <!--Dialogs-->
+    <string name="label_dialog">Dialogs</string>
+    <string name="alert_dialog">Alert Dialog</string>
+    <string name="simple_dialog">Simple Dialog</string>
+    <string name="confirmation_dialog">Confirmation Dialog</string>
+    <string name="custom_dialog">Custom Dialog</string>
+    <string name="multiple_choice_confirmation_dialog">Multiple Choice Confirmation Dialog</string>
 
 </resources>

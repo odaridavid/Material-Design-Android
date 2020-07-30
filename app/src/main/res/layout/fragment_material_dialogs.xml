@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/alert_dialog_button"
+        style="@style/Widget.MaterialX.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_standard"
+        android:text="@string/alert_dialog" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/simple_dialog_button"
+        style="@style/Widget.MaterialX.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_standard"
+        android:text="@string/simple_dialog" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/confirmation_dialog_button"
+        style="@style/Widget.MaterialX.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_standard"
+        android:text="@string/confirmation_dialog" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/multiple_choice_confirmation_dialog_button"
+        style="@style/Widget.MaterialX.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_standard"
+        android:text="@string/multiple_choice_confirmation_dialog" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/custom_dialog_button"
+        style="@style/Widget.MaterialX.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_standard"
+        android:text="@string/custom_dialog" />
+
+</LinearLayout>
