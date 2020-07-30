@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_standard"
+        android:text="Material X"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.MaterialX.Headline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/about_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_standard"
+        android:text="Material X aims to showcase some material design samples and provide a quick reference template."
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.MaterialX.Body"
+        android:textColor="@color/color_grey_800"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_text_view" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_standard"
+        android:text="App Version 1.0.0"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.MaterialX.Caption"
+        android:textColor="@color/color_grey_800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/about_app" />
+</androidx.constraintlayout.widget.ConstraintLayout>

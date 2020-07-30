@@ -67,6 +67,13 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment_to_materialDialogsFragment"
+            app:destination="@id/materialDialogsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/typographyFragment"
@@ -222,4 +229,9 @@
         android:name="com.github.odaridavid.materialx.motion.MotionLayoutFragment"
         android:label="@string/label_motion"
         tools:layout="@layout/fragment_motion_layout" />
+    <fragment
+        android:id="@+id/materialDialogsFragment"
+        android:name="com.github.odaridavid.materialx.dialogs.MaterialDialogsFragment"
+        android:label="@string/label_dialog"
+        tools:layout="@layout/fragment_material_dialogs" />
 </navigation>

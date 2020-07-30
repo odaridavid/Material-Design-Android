@@ -17,6 +17,7 @@ and more.
 - [Input](#input)
 - [Bottom Navigation](#bottom-navigation)
 - [Grids](#grids)
+- [Dialogs](#dialogs)
 - [Attributions](#attributions)
 - [References](#references)
 - [License](#license)
@@ -64,6 +65,10 @@ and more.
 ### Grids
 
 <img src="art/grida.png" width="200"> <img src="art/gridb.png" width="200"> <img src="art/gridc.png" width="200">
+
+### Dialogs
+
+<img src="art/dialog1.png" width="200"> <img src="art/dialog2.png" width="200"> <img src="art/dialog3.png" width="200"> <img src="art/dialog4.png" width="200"> <img src="art/dialog5.png" width="200">
 
 ### References
 
